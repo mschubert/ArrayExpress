@@ -1,0 +1,14 @@
+importFrom("XML", "xmlTreeParse",
+           "xmlRoot",
+           "xpathSApply",
+           "xpathApply",
+           "xmlValue",
+           "xmlAttrs",
+           "xmlElementsByTagName",
+           "getNodeSet",
+           "xmlGetAttr")
+importFrom("limma", "read.maimages")
+importFrom("affy", "ReadAffy")
+importFrom("utils","URLencode")
+export("ArrayExpress", "getAE", "queryAE", "ae2bioc", "getcolproc", "getcolraw", "procset", "extract.zip")
+
